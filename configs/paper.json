@@ -1,0 +1,31 @@
+{
+  "model_ckpt": "facebook/dinov2-with-registers-large",
+  "model_revision": "e4c89a4e05589de9b3e188688a303d0f3c04d0f3",
+  "blocks": [
+    "A_output=-1,-2,-3,-4,-5,-6",
+    "B_upper_mid=-7,-8,-9,-10,-11,-12"
+  ],
+  "seeds": [
+    42,
+    123,
+    999
+  ],
+  "image_res": 256,
+  "global_pca_ev": 0.95,
+  "k_shot": 1,
+  "aug_count": 30,
+  "batch_size": 2,
+  "top_frac": 0.01,
+  "output_method": "dsb_fr",
+  "no_augmentation_categories": [
+    "transistor"
+  ],
+  "map_weights": [
+    0.5,
+    0.5
+  ],
+  "image_score_weights": [
+    0.5,
+    0.5
+  ]
+}
