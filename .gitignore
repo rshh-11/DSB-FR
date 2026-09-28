@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+/data/
+/datasets/
+.cache/
+outputs/
+*.pth
+*.pt
+*.safetensors
+*.npz
+*.log
+.DS_Store

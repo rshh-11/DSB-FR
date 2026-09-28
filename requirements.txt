@@ -1,0 +1,7 @@
+# Install torch / torchvision for your CUDA platform first.
+numpy==1.26.4
+opencv-python==4.8.1.78
+Pillow==12.2.0
+scikit-learn==1.7.2
+transformers==5.8.1
+tqdm==4.67.3
