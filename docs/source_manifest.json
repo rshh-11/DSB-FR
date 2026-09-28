@@ -1,0 +1,57 @@
+[
+  {
+    "file": "tools/multilayer_subspace_pilot.py",
+    "source": "SubspaceAD_original/tools/multilayer_subspace_pilot.py",
+    "sha256": "12e022d79305363dcf3281e8ac2c967b0f72da4bf3e7857da8147f12bf01f0ca"
+  },
+  {
+    "file": "tools/support_mixture_subspace_pilot.py",
+    "source": "SubspaceAD_original/tools/support_mixture_subspace_pilot.py",
+    "sha256": "dee286be56b91a9a03bad3cd26c208989d8c10204ee2e1fb0ebe4bbe20ca6b72"
+  },
+  {
+    "file": "src/subspacead/core/pca.py",
+    "source": "SubspaceAD_original/src/subspacead/core/pca.py",
+    "sha256": "e83e7b20eba67a691fa45da46ab49305f174ad05fec454414a684843b41396f6"
+  },
+  {
+    "file": "src/subspacead/data/transforms.py",
+    "source": "SubspaceAD_original/src/subspacead/data/transforms.py",
+    "sha256": "aeabe4ef72384b1e858d73943f77151ded0301fc817583b4b6d9f5d0a7fb1338"
+  },
+  {
+    "file": "src/subspacead/post_process/scoring.py",
+    "source": "SubspaceAD_original/src/subspacead/post_process/scoring.py",
+    "sha256": "d29da82ae313bad4e95ecec09c4efddc0abd13aa86086c1e538bea76bfe5113f"
+  },
+  {
+    "file": "src/subspacead/utils/common.py",
+    "source": "SubspaceAD_original/src/subspacead/utils/common.py",
+    "sha256": "252f478924c4d28f876d7aa71a578cc2044af6bbfdd5cbaf4a6d5ea3fef53b68"
+  },
+  {
+    "file": "results/paired_image_auroc.csv",
+    "source": "experiment_index/dsb_fr_final/dsb_fr_paired_seed_category.csv",
+    "sha256": "26a808d758b9be46f6b3099085f7d1388eb1ac1d1294a9f6071f0b37b5f6a168"
+  },
+  {
+    "file": "results/paired_bootstrap.csv",
+    "source": "experiment_index/dsb_fr_final/dsb_fr_vs_upstream_bootstrap.csv",
+    "sha256": "5ecf1a2189a9f65f610f8d5f6df3c908df8b0f82440c61db02d4de1979708108"
+  },
+  {
+    "file": "results/fr_weight_sensitivity.csv",
+    "source": "experiment_index/dsb_fr_final/fusion_weight_sensitivity.csv",
+    "sha256": "64cabcd5c2dc232d3fed42c6ed3ecc3d2e6cdc506da65e99c3960d2ef3636df4"
+  },
+  {
+    "file": "results/rank_matched_pairs.csv",
+    "source": "experiment_index/rank_matched_20260921/rank_matched_pairs.csv",
+    "sha256": "15a5eac1e28aec0fe40c83c0eb2b98353894eb9d504db015909ddb6360ba7fec"
+  },
+  {
+    "file": "results/rank_matched_summary.csv",
+    "source": "experiment_index/rank_matched_20260921/rank_matched_summary.csv",
+    "sha256": "51666fe905d08830f2b50fa1cf7d25da19be436beaba092d841cccd7faca2f7a"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "pairs": 108,
+  "query_seed_rows": 15258,
+  "max_auc_error_vs_saved": 4.828934506706517e-07,
+  "dataset_means": {
+    "MVTec-AD": {
+      "dsb_fusion_full": 0.957108124254301,
+      "dsb_fusion_roi": 0.9475768870047525,
+      "dsb_fr": 0.9593841724227712,
+      "subspacead": 0.9194222222222221
+    },
+    "BTAD": {
+      "dsb_fusion_full": 0.9477234376522579,
+      "dsb_fusion_roi": 0.9384957650888462,
+      "dsb_fr": 0.9452911277557868,
+      "subspacead": 0.9538666666666666
+    },
+    "VisA": {
+      "dsb_fusion_full": 0.8565812522918956,
+      "dsb_fusion_roi": 0.8993795471213788,
+      "dsb_fr": 0.9065010084341767,
+      "subspacead": 0.9005
+    },
+    "MPDD": {
+      "dsb_fusion_full": 0.7058234186757065,
+      "dsb_fusion_roi": 0.7255133333098203,
+      "dsb_fr": 0.719736331026134,
+      "subspacead": 0.6625055555555555
+    },
+    "Equal dataset mean": {
+      "dsb_fusion_full": 0.8668090582185403,
+      "dsb_fusion_roi": 0.8777413831311993,
+      "dsb_fr": 0.8827281599097172,
+      "subspacead": 0.859073611111111
+    }
+  },
+  "pipeline_gain_pp": 2.365454879860618,
+  "fr_gain_pp": 1.591910169117694,
+  "rank_matched_gain_pp": 0.5168798041837785,
+  "bootstrap": {
+    "n": 100000,
+    "seed": 20260902,
+    "ci95_pp": [
+      0.6845699131944447,
+      4.2655300520833315
+    ]
+  }
+}

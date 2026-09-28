@@ -1,0 +1,62 @@
+[
+  {
+    "dataset": "MVTec-AD",
+    "source": "SubspaceAD_original/experiments/support_mixture_subspace_pilot/mvtec_15cat_3seed_k8_support_calibrated/image_scores.csv",
+    "sha256": "e7e452b8faf8021b538528e7c32361e496995733d3b1b2a9f5e6b9bbbb6aca41",
+    "rows": 5175,
+    "selected_columns": [
+      "seed",
+      "category",
+      "sample",
+      "label",
+      "dsb_fusion_full",
+      "dsb_fusion_roi",
+      "dsb_fr"
+    ]
+  },
+  {
+    "dataset": "BTAD",
+    "source": "SubspaceAD_original/experiments/support_mixture_subspace_pilot/btad_3cat_3seed_k8_support_calibrated/image_scores.csv",
+    "sha256": "42a5c4716d0bc7b3d196f74820a6891f192b91749a05d8cf2e25d12d56b66aa5",
+    "rows": 2223,
+    "selected_columns": [
+      "seed",
+      "category",
+      "sample",
+      "label",
+      "dsb_fusion_full",
+      "dsb_fusion_roi",
+      "dsb_fr"
+    ]
+  },
+  {
+    "dataset": "VisA",
+    "source": "SubspaceAD_original/experiments/support_mixture_subspace_pilot/visa_12cat_3seed_k8_support_calibrated/image_scores.csv",
+    "sha256": "a0063ca3afa528bd6690d45cefaa6f2eb70052835ca2fa559f54e17699b3e19e",
+    "rows": 6486,
+    "selected_columns": [
+      "seed",
+      "category",
+      "sample",
+      "label",
+      "dsb_fusion_full",
+      "dsb_fusion_roi",
+      "dsb_fr"
+    ]
+  },
+  {
+    "dataset": "MPDD",
+    "source": "experiment_index/frozen_mpdd_validation/sc_mlsb/image_scores.csv",
+    "sha256": "bddb03296d07c22e64e77192798d2cc374bd0b8fbf194cccd99838fd794a84a9",
+    "rows": 1374,
+    "selected_columns": [
+      "seed",
+      "category",
+      "sample",
+      "label",
+      "dsb_fusion_full",
+      "dsb_fusion_roi",
+      "dsb_fr"
+    ]
+  }
+]
